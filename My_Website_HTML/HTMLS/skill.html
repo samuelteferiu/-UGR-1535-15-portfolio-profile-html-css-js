@@ -1,77 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/My_Website_HTML/css/skill.css">
+  <title>My Website</title>
 </head>
 <body>
-    <header>
-        <nav class="container">
-            <a href="home.html" class="logo"><img src="../images/logoimage.jpg" alt="logoimage"></a> 
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="skill.html"  class="active">Skill</a></li>
-                <li><a href="background.html">Background</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h1>Foreign language</h1>
-            <p>Since I place a high importance on personal development, I have always tried to learn several languages. The foreign languages I have studied and my experiences with them are listed below.
-            </p>
-            <h2>English</h2>
-            <img src="../images/englishimage.jpg" alt="englishimage"> 
-            <p>Since English is regarded as a necessary language in many African nations, it was the first foreign language I learnt. 
-                It is the language I am most fluent in, though I am still working toward mastery. </p>
-            <h2>French</h2>
-            <img src="../images/frenchimage.png" alt="frenchimage"> 
-            <p>In my early school years, French became my second foreign language. At first, I didn't realize how important learning a second language was. 
-                But I went on to study French in high school and received an A1 certification.
-            </p>
-            <h2>Arabic</h2>
-            <img src="../images/arabicimage.png" alt="arabicimage">
-            <p>I learned Arabic by accident, mostly as a result of my childhood fascination with Arabic cartoon films. 
-                I hope to become proficient in it in the future.
-            </p>
-        </section>
-        <section>
-        <h1>Relevant skill</h1>
-        <p>Below are the skills I have developed to support my career aspirations.</p>
-        <h2>Typing</h2>
-        <p>Using a variety of internet resources, I have improved my typing abilities. My accuracy and efficiency when working on digital activities have increased as a result of this.
+  <header>
+    <a href="home.html" class="logo"><img src="../images/logoimage.jpg" alt="logoimage"></a> 
+    <nav class="tab">
+      <ul>
+        <li><a href="home.html" >Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skill.html"class="active">Skill</a></li>
+        <li><a href="background.html">Background</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="section-foreign-language">
+      <h2>Foreign language</h2>
+      <div class="language-content">
+        <div class="language-item">
+          <img class="lan-img" src="../images/englishimage.jpg" alt="englishimage">
+          <p>Since English is regarded as a necessary language in many African nations, it was the first foreign language I learnt. 
+             It is the language I am most fluent in, though I am still working toward mastery. </p>
+        </div>
+        <div class="language-item">
+          <img class="lan-img" src="../images/frenchimage.png" alt="frenchimage">
+          <p>In my early school years, French became my second foreign language. At first, I didn't realize how important learning a second language was. 
+             But I went on to study French in high school and received an A1 certification.
+          </p>
+        </div>
+        <div class="language-item">
+          <img class="lan-img" src="../images/arabicimage.png" alt="arabicimage">
+          <p>I learned Arabic by accident, mostly as a result of my childhood fascination with Arabic cartoon films. 
+             I hope to become proficient in it in the future.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="section relevant-skill">
+      <h1>Relevant skill</h1>
+      <div class="skill-item">
+          <img class="rel-img" src="../images/typingimage.jpg" alt="typingimage">   
+        <p>Typing
+          Using a variety of internet resources, I have improved my typing abilities. My accuracy and efficiency when working on digital activities have increased as a result of this.
         </p>
-        <img src="../images/typingimage.jpg" alt="typingimage">
-        <a href="https://10fastfingers.com" target="_blank">The typing practice I use</a>
-        <h2>communication</h2>
-        <p>Both personal and professional contexts require effective communication.
-             In order to promote stronger bonds and teamwork, I'm always trying to get better at this ability.
+      </div>
+      <div class="skill-item">
+          <img class="rel-img" src="../images/communicationimage.png" alt="communicationimage">
+        <p>Communication
+          Both personal and professional contexts require effective communication.
+          In order to promote stronger bonds and teamwork, I'm always trying to get better at this ability.
         </p>
-        <img src="../images/communicationimage.png" alt="communicationimage">
-        <a href="https://hbr.org/topic/communication" target="_blank">Harvard Business Review</a>.
-        </section>
-        <section>
-        <h1>Voluntary work</h1>
-        <p>
-            Below is a video showcasing some of the voluntary work I have participated in, 
-            which has been both rewarding and impactful.
-           </p>
-         <video controls>
-            <source src="../audio_and_video/voluntaryvideo.mp4" type="video/mp4">
-            Your browser does not support the video tag. Please download the video <a href="../audio_and_video/voluntaryvideo.mp4">here</a>.
-        </video>        
-        </section>
-    </main>
-    <footer>
-        <p><img src="../images/teleimage.jpg" alt="teleimage"> 
-            Telegram account: <a href="https://t.me/alladinmf" target="_blank">alladinmf</a>
-
-        </p>
-        <p><img src="../images/githubimage.png" alt="githubimage"> 
-            Github account:<a href="http://github.com/samuelteferiu" target="_blank">samuelteferiu</a></p>    
-        <p>&copy; 2024 Samuel Teferi Flatie. All rights reserved.</p>
-    </footer>
-</body> 
+      </div>
+    </div>
+    <div class="mypractices">
+        <a href="https://github.com/your-username/your-repo" target="_blank"><img src="../images/githubimage.png" alt="githubimage"></a>   
+        <a href="https://github.com/your-username/your-repo" target="_blank">  <img src="../images/leetcodeimage.png" alt="leetcodeimage"> </a>           
+    </div>
+    <div class="section voluntary-work">
+      <h1>Voluntary work</h1>
+      <video controls>
+        <source src="../audio_and_video/voluntaryvideo.mp4" type="video/mp4">
+        Your browser does not support the video tag. Please download the video <a href="../audio_and_video/voluntaryvideo.mp4">here</a>.
+      </video> 
+    </div>
+  </main>
+</body>
 </html>

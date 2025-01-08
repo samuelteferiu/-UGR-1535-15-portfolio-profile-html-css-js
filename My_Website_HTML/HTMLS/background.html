@@ -1,87 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/My_Website_HTML/css/background.css">
+  <title>My Website</title>
 </head>
 <body>
-    <header>
-        <nav class="container">
-            <a href="home.html" class="logo"><img src="../images/logoimage.jpg" alt="logoimage"></a> 
-            <ul>
-                <li><a href="home.html" >Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="skill.html">Skill</a></li>
-                <li><a href="background.html" class="active">Background</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
+  <header>
+    <a href="home.html" class="logo"><img src="../images/logoimage.jpg" alt="logoimage"></a> 
+    <nav class="tab">
+      <ul>
+        <li><a href="home.html" >Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skill.html">Skill</a></li>
+        <li><a href="background.html" class="active">Background</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+        <div class="lefter">
+          <section>
             <h1>Previous Education</h1>
-            <p> This section highlights my educational journey, including the challenges I faced and the successes I achieved.</p>
-            <h2>highschool and elementary school</h2>
-            <p>I started my education at Foundation of Knowledge School and continued there through the sixth grade. 
-                After that, I moved to Mission School, where I graduated with honors and exceptional performance from
-                 both elementary and high school.
-            </p>
-            <img src="../images/myschool.png" alt="myschool">
-            <h2>University</h2>
-            <p>I was a third-year student at Addis Ababa University (AAU) studying software engineering at the time
-                 I created this portfolio. In the first semester of my third year,
-                  I created this portfolio as a component of a Web Programming project.
-            </p>
-            <img src="../images/myuniversity.jpg" alt="myuniversity">
-        </section>
-        <section>
-            <h1>Future Work Aspirations</h1>
-            <p>I list the top three companies I want to work for in this part, arranged by priority. 
-                These businesses are a representation of my professional aspirations and the settings in which I aspire to advance.</p>
+            <div class="education-dop">
+              <img class="education-img" src="../images/myschool.png" alt="myschool">
+              <p class="education-text">
+                Elementary school: I started my education at Foundation of Knowledge School and continued there through the sixth grade.
+              </p>
+            </div>
+            <div class="education-dop">
+              <img class="education-img" src="../images/myschool.png" alt="myschool">
+              <p class="education-text">
+                High school: After that, I moved to Mission School, where I graduated with honors and exceptional performance from both elementary and high school.
+              </p>
+            </div>
+            <div class="education-dop">
+              <img class="education-img" src="../images/myuniversity.jpg" alt="myuniversity">
+              <p class="education-text">
+                University: I was a third-year student at Addis Ababa University (AAU) studying software engineering at the time I created this portfolio. In the first semester of my third year, I created this portfolio as a component of a Web Programming project.
+              </p>
+            </div>
+          </section>
+          <h2>Projects</h2>
+          <section class="ordered-now"> 
+            <div class="todler">
+            <a href="https://github.com/samuelteferiu/chess" target="_blank">
+              <img src="../images/githubimage.png" alt="githubimage">
+            </a>
+            <h2>Chess</h2>
+          </div>
+          <div class="todler">
+            <a href="https://github.com/samuelteferiu/banking-system" target="_blank">
+              <img src="../images/githubimage.png" alt="githubimage">
+            </a>
+            <h2>Banking System</h2>
+          </div>
+          <div class="todler">
+            <a href="https://github.com/samuelteferiu/task-scheduler" target="_blank">
+              <img src="../images/githubimage.png" alt="githubimage">
+            </a>
+            <h2>Task Scheduler</h2>
+          </div>
+          </section>
+        </div>
+        <div class="righter">
+          <section>
+            <h2>Workplace</h2>
             <ol>
-                <li>
-                    <h2>Google</h2>
-                    <img src="../images/mygoogle.jpg" alt="mygoogle"> 
-                    <p>For many people, including myself, Google is the ideal place to work. Distinguished by its outstanding work culture and 
-                        high levels of employee satisfaction, it is the ultimate objective I work toward with commitment and diligence.
-                    </p>
-                 </li>
-                 <li>
-                    <h2>Microsoft</h2>
-                    <img src="../images/mymicrosoft.png" alt="mymicrosoft">
-                    <p>Because Microsoft provides a welcoming and diverse workplace, it's a great opportunity for me
-                         to grow professionally and improve my knowledge in addition to advancing in my industry.
-                    </p>
-                 </li>
-                 <li>
-                    <h2>netflix</h2>
-                    <img src="../images/mynetflix.png" alt="mynetflix">
-                    <p>The main reasons Netflix appeals to me are its creative culture and competitive compensation. Nonetheless, 
-                        I intend to conduct a comprehensive investigation into its workplace to make sure it complements my career and 
-                        personal objectives.
-                      </p>
-                 </li>
+              <li>
+                <img class="workplace-img" src="../images/mygoogle.jpg" alt="mygoogle">
+                <p class="workplace-text">
+                  For many people, including myself, Google is the ideal place to work. Distinguished by its outstanding work culture and high levels of employee satisfaction, it is the ultimate objective I work toward with commitment and diligence.
+                </p>
+              </li>
+              <li>
+                <img class="workplace-img" src="../images/mymicrosoft.png" alt="mymicrosoft">
+                <p class="workplace-text">
+                  Because Microsoft provides a welcoming and diverse workplace, it's a great opportunity for me to grow professionally and improve my knowledge in addition to advancing in my industry.
+                </p>
+              </li>
+              <li>
+                <img class="workplace-img" src="../images/mynetflix.png" alt="mynetflix">
+                <p class="workplace-text">
+                  The main reasons Netflix appeals to me are its creative culture and competitive compensation. Nonetheless, I intend to conduct a comprehensive investigation into its workplace to make sure it complements my career and personal objectives.
+                </p>
+              </li>
             </ol>
-        </section>
-        <section>
-            <h1>Projects</h1>
-            <p>  Below are some of the projects I have worked on, either individually or collaboratively with my team.</p>
-            <h2>chess</h2>
-            <img src="../images/githubimage.png" alt="githubimage"> 
-            <a href="https://github.com/your-username/your-repo" target="_blank">My GitHub Repository</a>  
-            <h2>banking system</h2>
-            <img src="../images/githubimage.png" alt="githubimage"> 
-            <a href="https://github.com/your-username/your-repo" target="_blank">My GitHub Repository</a>  
-        </section>
-    </main>
-    <footer>
-        <p><img src="../images/teleimage.jpg" alt="teleimage"> 
-            Telegram account: <a href="https://t.me/alladinmf" target="_blank">alladinmf</a>
-
-        </p>
-        <p><img src="../images/githubimage.png" alt="githubimage"> 
-            Github account:<a href="http://github.com/samuelteferiu" target="_blank">samuelteferiu</a></p>    
-        <p>&copy; 2024 Samuel Teferi Flatie. All rights reserved.</p>
-    </footer>
+          </section>
+        </div>
+      </div>          
+  </main>
 </body>
 </html>
